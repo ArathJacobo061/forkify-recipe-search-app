@@ -1,0 +1,16 @@
+{
+  "name": "forkify-clean",
+  "version": "1.0.0",
+  "private": true,
+ "scripts": {
+  "start": "parcel proyecto/index.html --no-hmr",
+  "start:clean": "parcel proyecto/index.html --no-cache --no-hmr",
+  "build": "parcel build proyecto/index.html --public-url ./"
+}
+,
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "^2.15.4",
+    "sass": "^1.92.1"
+  }
+}
